@@ -1,0 +1,17 @@
+<div class="one">
+    <h1 class="poppins-bold" style="font-size: 60px;"><%= ctemp %>°</h1>
+    <span class="poppins-regular">
+        High: <%= maxtemp %>° • Low: <%= mintemp %>°
+    </span>
+    <label class="icon_parent">
+        <h3 id="wtype" class="poppins-semibold"><%= wtype %></h3>
+        <div class="icon"><img alt="icon" src=<%= wicon %>></div>
+    </label>
+    <h4 class="poppins-regular"><%= wtype_des %></h4>
+</div>
+<div class="two">
+    <h2 class="poppins-semibold" style="font-size: 30px;"><%= city %></h2>
+    <h5 class="poppins-regular">Feels like <%= ftemp %>°</h5><br><br>
+    <h3 class="poppins-regular">💧 Humidity: <%= hum %>%</h3>
+    <h3 class="poppins-regular">💨 Wind: <%= winds %>Km/h</h3>
+</div>
